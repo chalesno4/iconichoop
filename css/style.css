@@ -1,0 +1,181 @@
+#title{
+  background-color: #1F4287;
+  color: #fff;
+}
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h4{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 2;
+}
+
+.container-fluid{
+  padding: 3% 13%;
+}
+
+/* navigation-bar */
+
+.navbar{
+  margin-bottom: 5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+/* Download-button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Images */
+
+.logo-img{
+  max-height: 400px;
+  max-width: 600px;
+  border-radius: 6%;
+  transform: rotate(20deg);
+  margin: 0 0 0 15%;
+  position: absolute;
+  right: 25%;
+  bottom: 10%;
+}
+
+
+.players-img{
+  max-height: 500px;
+  max-width: 400px;
+}
+
+.player-img{
+  max-height: 400px;
+  max-width: 600px;
+}
+
+/* Workout section */
+
+#workout{
+  padding: 6% 15%;
+  position: relative;
+  background-color: white;
+}
+
+.workout-box{
+  padding: 5%;
+  text-align: center;
+}
+
+.icon{
+color:  #152e5e;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+color:  #1F4287;
+
+}
+/* players-press */
+#players-press{
+    background: linear-gradient(to bottom right, #152e5e, #627aab);
+}
+/* Players Section */
+
+#players{
+  padding: 10% 15%;
+  /* background-color: #152e5e; */
+    /* background: linear-gradient(to bottom right, #152e5e, #627aab); */
+  text-align: center;
+  color: white;
+}
+
+/* Press Section */
+
+#press{
+      /* background: linear-gradient(to bottom right, #152e5e, #627aab); */
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 0 3% 2% 2%;
+}
+
+/* PRICING Section */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%
+}
+
+
+/* Call to action */
+
+#cta{
+  /* background-color: #1F4287; */
+    background: radial-gradient(circle, #1F4287 70%, #122751 10%, #18346c 10%, #1b3b79 10%);
+  padding: 7% 15%;
+  color: white;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black" ;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+#footer{
+  background-color: white;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.new-icon{
+  margin: 0 10px 20px 10px;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+
+  .logo-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
